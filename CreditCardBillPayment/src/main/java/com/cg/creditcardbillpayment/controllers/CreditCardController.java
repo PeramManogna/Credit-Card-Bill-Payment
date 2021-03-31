@@ -20,7 +20,7 @@ import com.cg.creditcardbillpayment.exceptions.CreditCardServiceException;
 import com.cg.creditcardbillpayment.services.CreditCardService;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/api")
 public class CreditCardController {
 	@Autowired
 	private CreditCardService creditcardService;
